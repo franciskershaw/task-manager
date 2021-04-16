@@ -1,5 +1,7 @@
-$(document).ready(function() {
-    $(".sidenav").sidenav({edge: "right"});
+$(document).ready(function () {
+    $(".sidenav").sidenav({
+        edge: "right"
+    });
     $('.collapsible').collapsible();
     $('.tooltipped').tooltip();
     $('.datepicker').datepicker({
@@ -10,4 +12,5 @@ $(document).ready(function() {
             done: 'Select'
         }
     });
+    $('select').formSelect();
 });
